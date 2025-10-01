@@ -3,8 +3,215 @@
 	<Role uuid="3dcfa849-bdad-4946-bbe8-1cc0187ed485">
 		<Properties>
 			<Name>HRS_ОсновнаяРоль</Name>
-			<Synonym/>
-			<Comment/>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Основная роль HRS</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment>Основная роль для работы с меню точек продаж и интеграцией Simphony</Comment>
 		</Properties>
+		<ChildObjects>
+			<Right name="InteractiveInsert">
+				<value>true</value>
+				<restrictionByCondition>false</restrictionByCondition>
+				<object>Catalog.MRS_МажорнаяГруппа</object>
+			</Right>
+			<Right name="Insert">
+				<value>true</value>
+				<restrictionByCondition>false</restrictionByCondition>
+				<object>Catalog.MRS_МажорнаяГруппа</object>
+			</Right>
+			<Right name="Update">
+				<value>true</value>
+				<restrictionByCondition>false</restrictionByCondition>
+				<object>Catalog.MRS_МажорнаяГруппа</object>
+			</Right>
+			<Right name="Read">
+				<value>true</value>
+				<restrictionByCondition>false</restrictionByCondition>
+				<object>Catalog.MRS_МажорнаяГруппа</object>
+			</Right>
+			<Right name="View">
+				<value>true</value>
+				<restrictionByCondition>false</restrictionByCondition>
+				<object>Catalog.MRS_МажорнаяГруппа</object>
+			</Right>
+			<Right name="InteractiveInsert">
+				<value>true</value>
+				<restrictionByCondition>false</restrictionByCondition>
+				<object>Catalog.MRS_СемейнаяГруппа</object>
+			</Right>
+			<Right name="Insert">
+				<value>true</value>
+				<restrictionByCondition>false</restrictionByCondition>
+				<object>Catalog.MRS_СемейнаяГруппа</object>
+			</Right>
+			<Right name="Update">
+				<value>true</value>
+				<restrictionByCondition>false</restrictionByCondition>
+				<object>Catalog.MRS_СемейнаяГруппа</object>
+			</Right>
+			<Right name="Read">
+				<value>true</value>
+				<restrictionByCondition>false</restrictionByCondition>
+				<object>Catalog.MRS_СемейнаяГруппа</object>
+			</Right>
+			<Right name="View">
+				<value>true</value>
+				<restrictionByCondition>false</restrictionByCondition>
+				<object>Catalog.MRS_СемейнаяГруппа</object>
+			</Right>
+			<Right name="InteractiveInsert">
+				<value>true</value>
+				<restrictionByCondition>false</restrictionByCondition>
+				<object>Catalog.MRS_КлассМеню</object>
+			</Right>
+			<Right name="Insert">
+				<value>true</value>
+				<restrictionByCondition>false</restrictionByCondition>
+				<object>Catalog.MRS_КлассМеню</object>
+			</Right>
+			<Right name="Update">
+				<value>true</value>
+				<restrictionByCondition>false</restrictionByCondition>
+				<object>Catalog.MRS_КлассМеню</object>
+			</Right>
+			<Right name="Read">
+				<value>true</value>
+				<restrictionByCondition>false</restrictionByCondition>
+				<object>Catalog.MRS_КлассМеню</object>
+			</Right>
+			<Right name="View">
+				<value>true</value>
+				<restrictionByCondition>false</restrictionByCondition>
+				<object>Catalog.MRS_КлассМеню</object>
+			</Right>
+			<Right name="InteractiveInsert">
+				<value>true</value>
+				<restrictionByCondition>false</restrictionByCondition>
+				<object>Catalog.MRS_Меню</object>
+			</Right>
+			<Right name="Insert">
+				<value>true</value>
+				<restrictionByCondition>false</restrictionByCondition>
+				<object>Catalog.MRS_Меню</object>
+			</Right>
+			<Right name="Update">
+				<value>true</value>
+				<restrictionByCondition>false</restrictionByCondition>
+				<object>Catalog.MRS_Меню</object>
+			</Right>
+			<Right name="Read">
+				<value>true</value>
+				<restrictionByCondition>false</restrictionByCondition>
+				<object>Catalog.MRS_Меню</object>
+			</Right>
+			<Right name="View">
+				<value>true</value>
+				<restrictionByCondition>false</restrictionByCondition>
+				<object>Catalog.MRS_Меню</object>
+			</Right>
+			<Right name="Read">
+				<value>true</value>
+				<restrictionByCondition>false</restrictionByCondition>
+				<object>Constant.MRS_БазовыйURLSimphony</object>
+			</Right>
+			<Right name="View">
+				<value>true</value>
+				<restrictionByCondition>false</restrictionByCondition>
+				<object>Constant.MRS_БазовыйURLSimphony</object>
+			</Right>
+			<Right name="Update">
+				<value>true</value>
+				<restrictionByCondition>false</restrictionByCondition>
+				<object>Constant.MRS_БазовыйURLSimphony</object>
+			</Right>
+			<Right name="Read">
+				<value>true</value>
+				<restrictionByCondition>false</restrictionByCondition>
+				<object>Constant.MRS_ТаймаутЗапросовSimphony</object>
+			</Right>
+			<Right name="View">
+				<value>true</value>
+				<restrictionByCondition>false</restrictionByCondition>
+				<object>Constant.MRS_ТаймаутЗапросовSimphony</object>
+			</Right>
+			<Right name="Update">
+				<value>true</value>
+				<restrictionByCondition>false</restrictionByCondition>
+				<object>Constant.MRS_ТаймаутЗапросовSimphony</object>
+			</Right>
+			<Right name="Read">
+				<value>true</value>
+				<restrictionByCondition>false</restrictionByCondition>
+				<object>Constant.MRS_ИспользоватьИнтеграциюSimphony</object>
+			</Right>
+			<Right name="View">
+				<value>true</value>
+				<restrictionByCondition>false</restrictionByCondition>
+				<object>Constant.MRS_ИспользоватьИнтеграциюSimphony</object>
+			</Right>
+			<Right name="Update">
+				<value>true</value>
+				<restrictionByCondition>false</restrictionByCondition>
+				<object>Constant.MRS_ИспользоватьИнтеграциюSimphony</object>
+			</Right>
+			<Right name="Read">
+				<value>true</value>
+				<restrictionByCondition>false</restrictionByCondition>
+				<object>Constant.MRS_IDПользователяПоУмолчанию</object>
+			</Right>
+			<Right name="View">
+				<value>true</value>
+				<restrictionByCondition>false</restrictionByCondition>
+				<object>Constant.MRS_IDПользователяПоУмолчанию</object>
+			</Right>
+			<Right name="Update">
+				<value>true</value>
+				<restrictionByCondition>false</restrictionByCondition>
+				<object>Constant.MRS_IDПользователяПоУмолчанию</object>
+			</Right>
+			<Right name="Read">
+				<value>true</value>
+				<restrictionByCondition>false</restrictionByCondition>
+				<object>InformationRegister.MRS_СтатусыСинхронизацииМеню</object>
+			</Right>
+			<Right name="View">
+				<value>true</value>
+				<restrictionByCondition>false</restrictionByCondition>
+				<object>InformationRegister.MRS_СтатусыСинхронизацииМеню</object>
+			</Right>
+			<Right name="Update">
+				<value>true</value>
+				<restrictionByCondition>false</restrictionByCondition>
+				<object>InformationRegister.MRS_СтатусыСинхронизацииМеню</object>
+			</Right>
+			<Right name="Read">
+				<value>true</value>
+				<restrictionByCondition>false</restrictionByCondition>
+				<object>InformationRegister.MRS_ЛогИнтеграцииSimphony</object>
+			</Right>
+			<Right name="View">
+				<value>true</value>
+				<restrictionByCondition>false</restrictionByCondition>
+				<object>InformationRegister.MRS_ЛогИнтеграцииSimphony</object>
+			</Right>
+			<Right name="Update">
+				<value>true</value>
+				<restrictionByCondition>false</restrictionByCondition>
+				<object>InformationRegister.MRS_ЛогИнтеграцииSimphony</object>
+			</Right>
+			<Right name="View">
+				<value>true</value>
+				<restrictionByCondition>false</restrictionByCondition>
+				<object>Enum.MRS_СтатусыСинхронизации</object>
+			</Right>
+			<Right name="View">
+				<value>true</value>
+				<restrictionByCondition>false</restrictionByCondition>
+				<object>Enum.MRS_КатегорииМажорныхГрупп</object>
+			</Right>
+		</ChildObjects>
 	</Role>
 </MetaDataObject>

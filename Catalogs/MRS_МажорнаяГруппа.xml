@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.19">
+	<Catalog uuid="c5d6e7f8-a2b3-4789-c5d6-e7f8a2b37916">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.MRS_МажорнаяГруппа" category="Object">
+				<xr:TypeId>d5e6f7a8-b2c3-4789-d5e6-f7a8b2c37917</xr:TypeId>
+				<xr:ValueId>e5f6a7b8-c2d3-4789-e5f6-a7b8c2d37918</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.MRS_МажорнаяГруппа" category="Ref">
+				<xr:TypeId>f5a6b7c8-d2e3-4789-f5a6-b7c8d2e37919</xr:TypeId>
+				<xr:ValueId>a6b7c8d9-e2f3-4789-a6b7-c8d9e2f37920</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.MRS_МажорнаяГруппа" category="Selection">
+				<xr:TypeId>b6c7d8e9-f2a3-4789-b6c7-d8e9f2a37921</xr:TypeId>
+				<xr:ValueId>c6d7e8f9-a2b3-4789-c6d7-e8f9a2b37922</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.MRS_МажорнаяГруппа" category="List">
+				<xr:TypeId>d6e7f8a9-b2c3-4789-d6e7-f8a9b2c37923</xr:TypeId>
+				<xr:ValueId>e6f7a8b9-c2d3-4789-e6f7-a8b9c2d37924</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.MRS_МажорнаяГруппа" category="Manager">
+				<xr:TypeId>f6a7b8c9-d2e3-4789-f6a7-b8c9d2e37925</xr:TypeId>
+				<xr:ValueId>a7b8c9d0-e2f3-4789-a7b8-c9d0e2f37926</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>MRS_МажорнаяГруппа</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Мажорная группа (MRS)</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment>Справочник мажорных групп из Simphony (Major Groups)</Comment>
+			<UseStandardCommands>true</UseStandardCommands>
+			<InputByString>
+				<xr:Field>Catalog.MRS_МажорнаяГруппа.StandardAttribute.Description</xr:Field>
+				<xr:Field>Catalog.MRS_МажорнаяГруппа.StandardAttribute.Code</xr:Field>
+			</InputByString>
+			<FullTextSearchOnInputByString>DontUse</FullTextSearchOnInputByString>
+			<CreateOnInput>Use</CreateOnInput>
+			<DataLockControlMode>Managed</DataLockControlMode>
+			<FullTextSearch>Use</FullTextSearch>
+			<ObjectPresentation>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Мажорная группа</v8:content>
+				</v8:item>
+			</ObjectPresentation>
+			<ListPresentation>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Мажорные группы</v8:content>
+				</v8:item>
+			</ListPresentation>
+			<Hierarchical>false</Hierarchical>
+			<LevelCount>2</LevelCount>
+			<FoldersOnTop>true</FoldersOnTop>
+			<CodeLength>20</CodeLength>
+			<DescriptionLength>100</DescriptionLength>
+			<CodeType>String</CodeType>
+			<CodeAllowedLength>Variable</CodeAllowedLength>
+			<CheckUnique>true</CheckUnique>
+			<Autonumbering>true</Autonumbering>
+			<DefaultPresentation>AsDescription</DefaultPresentation>
+			<EditType>InDialog</EditType>
+			<ChoiceMode>BothWays</ChoiceMode>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="b7c8d9e0-f2a3-4789-b7c8-d9e0f2a37927">
+				<Properties>
+					<Name>НомерОбъекта</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Номер объекта</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>Номер мажорной группы в Simphony (objectNumber)</Comment>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>15</v8:Digits>
+							<v8:FractionDigits>0</v8:FractionDigits>
+							<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+					<PasswordMode>false</PasswordMode>
+					<Format/>
+					<EditFormat/>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Номер мажорной группы из Simphony</v8:content>
+						</v8:item>
+					</ToolTip>
+					<MarkNegatives>false</MarkNegatives>
+					<Mask/>
+					<MultiLine>false</MultiLine>
+					<ExtendedEdit>false</ExtendedEdit>
+					<MinValue xsi:nil="true"/>
+					<MaxValue xsi:nil="true"/>
+					<FillValue xsi:type="xs:decimal">0</FillValue>
+					<Indexing>Index</Indexing>
+					<FullTextSearch>Use</FullTextSearch>
+					<DataHistory>Use</DataHistory>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="c7d8e9f0-a2b3-4789-c7d8-e9f0a2b37928">
+				<Properties>
+					<Name>КатегорияПоДиапазону</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Категория по диапазону</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>Категория, определяемая автоматически по диапазону НомерОбъекта</Comment>
+					<Type>
+						<v8:Type>cfg:EnumRef.MRS_КатегорииМажорныхГрупп</v8:Type>
+					</Type>
+					<PasswordMode>false</PasswordMode>
+					<Format/>
+					<EditFormat/>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Автоматически определяется по номеру объекта</v8:content>
+						</v8:item>
+					</ToolTip>
+					<MarkNegatives>false</MarkNegatives>
+					<Mask/>
+					<MultiLine>false</MultiLine>
+					<ExtendedEdit>false</ExtendedEdit>
+					<MinValue xsi:nil="true"/>
+					<MaxValue xsi:nil="true"/>
+					<FillChecking>DontCheck</FillChecking>
+					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+					<ChoiceParameterLinks/>
+					<ChoiceParameters/>
+					<QuickChoice>Auto</QuickChoice>
+					<CreateOnInput>Auto</CreateOnInput>
+					<FillValue xsi:type="cfg:EnumRef.MRS_КатегорииМажорныхГрупп">
+						<xen:Value/>
+					</FillValue>
+					<Indexing>DontIndex</Indexing>
+					<FullTextSearch>Use</FullTextSearch>
+					<DataHistory>Use</DataHistory>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
+	</Catalog>
+</MetaDataObject>
+
+

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.19">
+	<Catalog uuid="d9e0f1a2-b2c3-4789-d9e0-f1a2b2c37941">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.MRS_КлассМеню" category="Object">
+				<xr:TypeId>e9f0a1b2-c2d3-4789-e9f0-a1b2c2d37942</xr:TypeId>
+				<xr:ValueId>f9a0b1c2-d2e3-4789-f9a0-b1c2d2e37943</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.MRS_КлассМеню" category="Ref">
+				<xr:TypeId>a0b1c2d3-e2f3-4789-a0b1-c2d3e2f37944</xr:TypeId>
+				<xr:ValueId>b0c1d2e3-f2a3-4789-b0c1-d2e3f2a37945</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.MRS_КлассМеню" category="Selection">
+				<xr:TypeId>c0d1e2f3-a2b3-4789-c0d1-e2f3a2b37946</xr:TypeId>
+				<xr:ValueId>d0e1f2a3-b2c3-4789-d0e1-f2a3b2c37947</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.MRS_КлассМеню" category="List">
+				<xr:TypeId>e0f1a2b3-c2d3-4789-e0f1-a2b3c2d37948</xr:TypeId>
+				<xr:ValueId>f0a1b2c3-d2e3-4789-f0a1-b2c3d2e37949</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.MRS_КлассМеню" category="Manager">
+				<xr:TypeId>a1b2c3d4-e2f3-4789-a1b2-c3d4e2f37950</xr:TypeId>
+				<xr:ValueId>b1c2d3e4-f2a3-4789-b1c2-d3e4f2a37951</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>MRS_КлассМеню</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Класс меню (MRS)</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment>Справочник классов меню из Simphony (Class Items)</Comment>
+			<UseStandardCommands>true</UseStandardCommands>
+			<InputByString>
+				<xr:Field>Catalog.MRS_КлассМеню.StandardAttribute.Description</xr:Field>
+				<xr:Field>Catalog.MRS_КлассМеню.StandardAttribute.Code</xr:Field>
+			</InputByString>
+			<FullTextSearchOnInputByString>DontUse</FullTextSearchOnInputByString>
+			<CreateOnInput>Use</CreateOnInput>
+			<DataLockControlMode>Managed</DataLockControlMode>
+			<FullTextSearch>Use</FullTextSearch>
+			<ObjectPresentation>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Класс меню</v8:content>
+				</v8:item>
+			</ObjectPresentation>
+			<ListPresentation>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Классы меню</v8:content>
+				</v8:item>
+			</ListPresentation>
+			<Hierarchical>false</Hierarchical>
+			<LevelCount>2</LevelCount>
+			<FoldersOnTop>true</FoldersOnTop>
+			<CodeLength>20</CodeLength>
+			<DescriptionLength>100</DescriptionLength>
+			<CodeType>String</CodeType>
+			<CodeAllowedLength>Variable</CodeAllowedLength>
+			<CheckUnique>true</CheckUnique>
+			<Autonumbering>true</Autonumbering>
+			<DefaultPresentation>AsDescription</DefaultPresentation>
+			<EditType>InDialog</EditType>
+			<ChoiceMode>BothWays</ChoiceMode>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="c1d2e3f4-a2b3-4789-c1d2-e3f4a2b37952">
+				<Properties>
+					<Name>НомерОбъекта</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Номер объекта</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>Номер класса меню в Simphony (objectNumber)</Comment>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>15</v8:Digits>
+							<v8:FractionDigits>0</v8:FractionDigits>
+							<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+					<PasswordMode>false</PasswordMode>
+					<Format/>
+					<EditFormat/>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Номер класса меню из Simphony</v8:content>
+						</v8:item>
+					</ToolTip>
+					<MarkNegatives>false</MarkNegatives>
+					<Mask/>
+					<MultiLine>false</MultiLine>
+					<ExtendedEdit>false</ExtendedEdit>
+					<MinValue xsi:nil="true"/>
+					<MaxValue xsi:nil="true"/>
+					<FillValue xsi:type="xs:decimal">0</FillValue>
+					<Indexing>Index</Indexing>
+					<FullTextSearch>Use</FullTextSearch>
+					<DataHistory>Use</DataHistory>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
+	</Catalog>
+</MetaDataObject>
+
+

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.19">
+	<Catalog uuid="d7e8f9a0-b2c3-4789-d7e8-f9a0b2c37929">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.MRS_СемейнаяГруппа" category="Object">
+				<xr:TypeId>e7f8a9b0-c2d3-4789-e7f8-a9b0c2d37930</xr:TypeId>
+				<xr:ValueId>f7a8b9c0-d2e3-4789-f7a8-b9c0d2e37931</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.MRS_СемейнаяГруппа" category="Ref">
+				<xr:TypeId>a8b9c0d1-e2f3-4789-a8b9-c0d1e2f37932</xr:TypeId>
+				<xr:ValueId>b8c9d0e1-f2a3-4789-b8c9-d0e1f2a37933</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.MRS_СемейнаяГруппа" category="Selection">
+				<xr:TypeId>c8d9e0f1-a2b3-4789-c8d9-e0f1a2b37934</xr:TypeId>
+				<xr:ValueId>d8e9f0a1-b2c3-4789-d8e9-f0a1b2c37935</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.MRS_СемейнаяГруппа" category="List">
+				<xr:TypeId>e8f9a0b1-c2d3-4789-e8f9-a0b1c2d37936</xr:TypeId>
+				<xr:ValueId>f8a9b0c1-d2e3-4789-f8a9-b0c1d2e37937</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.MRS_СемейнаяГруппа" category="Manager">
+				<xr:TypeId>a9b0c1d2-e2f3-4789-a9b0-c1d2e2f37938</xr:TypeId>
+				<xr:ValueId>b9c0d1e2-f2a3-4789-b9c0-d1e2f2a37939</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>MRS_СемейнаяГруппа</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Семейная группа (MRS)</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment>Справочник семейных групп из Simphony (Family Groups). Глобальный справочник.</Comment>
+			<UseStandardCommands>true</UseStandardCommands>
+			<InputByString>
+				<xr:Field>Catalog.MRS_СемейнаяГруппа.StandardAttribute.Description</xr:Field>
+				<xr:Field>Catalog.MRS_СемейнаяГруппа.StandardAttribute.Code</xr:Field>
+			</InputByString>
+			<FullTextSearchOnInputByString>DontUse</FullTextSearchOnInputByString>
+			<CreateOnInput>Use</CreateOnInput>
+			<DataLockControlMode>Managed</DataLockControlMode>
+			<FullTextSearch>Use</FullTextSearch>
+			<ObjectPresentation>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Семейная группа</v8:content>
+				</v8:item>
+			</ObjectPresentation>
+			<ListPresentation>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Семейные группы</v8:content>
+				</v8:item>
+			</ListPresentation>
+			<Hierarchical>false</Hierarchical>
+			<LevelCount>2</LevelCount>
+			<FoldersOnTop>true</FoldersOnTop>
+			<CodeLength>20</CodeLength>
+			<DescriptionLength>100</DescriptionLength>
+			<CodeType>String</CodeType>
+			<CodeAllowedLength>Variable</CodeAllowedLength>
+			<CheckUnique>true</CheckUnique>
+			<Autonumbering>true</Autonumbering>
+			<DefaultPresentation>AsDescription</DefaultPresentation>
+			<EditType>InDialog</EditType>
+			<ChoiceMode>BothWays</ChoiceMode>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="c9d0e1f2-a2b3-4789-c9d0-e1f2a2b37940">
+				<Properties>
+					<Name>НомерОбъекта</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Номер объекта</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>Номер семейной группы в Simphony (objectNumber)</Comment>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>15</v8:Digits>
+							<v8:FractionDigits>0</v8:FractionDigits>
+							<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+					<PasswordMode>false</PasswordMode>
+					<Format/>
+					<EditFormat/>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Номер семейной группы из Simphony</v8:content>
+						</v8:item>
+					</ToolTip>
+					<MarkNegatives>false</MarkNegatives>
+					<Mask/>
+					<MultiLine>false</MultiLine>
+					<ExtendedEdit>false</ExtendedEdit>
+					<MinValue xsi:nil="true"/>
+					<MaxValue xsi:nil="true"/>
+					<FillValue xsi:type="xs:decimal">0</FillValue>
+					<Indexing>Index</Indexing>
+					<FullTextSearch>Use</FullTextSearch>
+					<DataHistory>Use</DataHistory>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
+	</Catalog>
+</MetaDataObject>
+
+

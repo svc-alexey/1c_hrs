@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.19">
+	<Enum uuid="b2c3d4e5-f6a1-4789-b2c3-d4e5f6a17897">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.MRS_КатегорииМажорныхГрупп" category="Ref">
+				<xr:TypeId>c2d3e4f5-a6b1-4789-c2d3-e4f5a6b17898</xr:TypeId>
+				<xr:ValueId>d2e3f4a5-b6c1-4789-d2e3-f4a5b6c17899</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>MRS_КатегорииМажорныхГрупп</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Категории мажорных групп (MRS)</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment>Категории мажорных групп по диапазонам номеров</Comment>
+			<UseStandardCommands>true</UseStandardCommands>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="e2f3a4b5-c6d1-4789-e2f3-a4b5c6d17900">
+				<Properties>
+					<Name>Еда_1000000_1999999</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Еда (1000000-1999999)</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>Категория: Еда, диапазон 1000000-1999999</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="f2a3b4c5-d6e1-4789-f2a3-b4c5d6e17901">
+				<Properties>
+					<Name>АлкогольныеНапитки_2000000_2999999</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Алкогольные напитки (2000000-2999999)</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>Категория: Алкогольные напитки, диапазон 2000000-2999999</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="a3b4c5d6-e7f2-4789-a3b4-c5d6e7f27902">
+				<Properties>
+					<Name>БезалкогольныеНапитки_3000000_3999999</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Безалкогольные напитки (3000000-3999999)</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>Категория: Безалкогольные напитки, диапазон 3000000-3999999</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="b3c4d5e6-f7a2-4789-b3c4-d5e6f7a27903">
+				<Properties>
+					<Name>Прочее_4000000</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Прочее (4000000+)</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>Категория: Прочее, начиная с 4000000</Comment>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>
+
+

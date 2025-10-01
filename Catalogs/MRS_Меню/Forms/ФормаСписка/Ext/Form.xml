@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.19">
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<ChildItems>
+			<Button name="ФормаСоздатьГруппу" id="1">
+				<Type>CommandBarButton</Type>
+				<CommandName>Form.Command.СоздатьГруппу</CommandName>
+				<ExtendedTooltip name="ФормаСоздатьГруппуРасширеннаяПодсказка" id="2"/>
+			</Button>
+			<Button name="ФормаСинхронизироватьВыбранные" id="3">
+				<Type>CommandBarButton</Type>
+				<CommandName>Form.Command.СинхронизироватьВыбранные</CommandName>
+				<ExtendedTooltip name="ФормаСинхронизироватьВыбранныеРасширеннаяПодсказка" id="4"/>
+			</Button>
+			<Button name="ФормаМассоваяСинхронизация" id="5">
+				<Type>CommandBarButton</Type>
+				<CommandName>Form.Command.МассоваяСинхронизация</CommandName>
+				<ExtendedTooltip name="ФормаМассоваяСинхронизацияРасширеннаяПодсказка" id="6"/>
+			</Button>
+		</ChildItems>
+	</AutoCommandBar>
+	<ChildItems>
+		<UsualGroup name="ГруппаОтборы" id="7">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Отборы</v8:content>
+				</v8:item>
+			</Title>
+			<Group>Horizontal</Group>
+			<Behavior>Usual</Behavior>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаОтборыРасширеннаяПодсказка" id="8"/>
+			<ChildItems>
+				<InputField name="ОтборВладелец" id="9">
+					<DataPath>ОтборВладелец</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Касса ККМ</v8:content>
+						</v8:item>
+					</Title>
+					<TitleLocation>Left</TitleLocation>
+					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+					<AutoCellHeight>false</AutoCellHeight>
+					<ContextMenu name="ОтборВладелецКонтекстноеМеню" id="10"/>
+					<ExtendedTooltip name="ОтборВладелецРасширеннаяПодсказка" id="11"/>
+					<Events>
+						<Event name="OnChange">ОтборВладелецПриИзменении</Event>
+					</Events>
+				</InputField>
+				<InputField name="ОтборСемейнаяГруппа" id="12">
+					<DataPath>ОтборСемейнаяГруппа</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Семейная группа</v8:content>
+						</v8:item>
+					</Title>
+					<TitleLocation>Left</TitleLocation>
+					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+					<AutoCellHeight>false</AutoCellHeight>
+					<ContextMenu name="ОтборСемейнаяГруппаКонтекстноеМеню" id="13"/>
+					<ExtendedTooltip name="ОтборСемейнаяГруппаРасширеннаяПодсказка" id="14"/>
+					<Events>
+						<Event name="OnChange">ОтборСемейнаяГруппаПриИзменении</Event>
+					</Events>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+		<Table name="Список" id="15">
+			<CommandBarLocation>None</CommandBarLocation>
+			<AutoCommandBar name="СписокКоманднаяПанель" id="16"/>
+			<DataPath>Список</DataPath>
+			<DefaultItem>true</DefaultItem>
+			<InitialTreeView>ExpandAllLevels</InitialTreeView>
+			<ContextMenu name="СписокКонтекстноеМеню" id="17"/>
+			<AutoRefresh>true</AutoRefresh>
+			<Period>
+				<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
+				<v8:startDate>0001-01-01T00:00:00</v8:startDate>
+				<v8:endDate>0001-01-01T00:00:00</v8:endDate>
+			</Period>
+			<ChoiceFoldersAndItems>FoldersAndItems</ChoiceFoldersAndItems>
+			<ExtendedTooltip name="СписокРасширеннаяПодсказка" id="18"/>
+			<ChildItems>
+				<LabelField name="Наименование" id="19">
+					<DataPath>Список.Наименование</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Наименование</v8:content>
+						</v8:item>
+					</Title>
+					<ContextMenu name="НаименованиеКонтекстноеМеню" id="20"/>
+					<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="21"/>
+				</LabelField>
+				<LabelField name="Номенклатура" id="22">
+					<DataPath>Список.Номенклатура</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Номенклатура</v8:content>
+						</v8:item>
+					</Title>
+					<ContextMenu name="НоменклатураКонтекстноеМеню" id="23"/>
+					<ExtendedTooltip name="НоменклатураРасширеннаяПодсказка" id="24"/>
+				</LabelField>
+				<LabelField name="МажорнаяГруппа" id="25">
+					<DataPath>Список.МажорнаяГруппа</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Мажорная группа</v8:content>
+						</v8:item>
+					</Title>
+					<ContextMenu name="МажорнаяГруппаКонтекстноеМеню" id="26"/>
+					<ExtendedTooltip name="МажорнаяГруппаРасширеннаяПодсказка" id="27"/>
+				</LabelField>
+				<LabelField name="СемейнаяГруппа" id="28">
+					<DataPath>Список.СемейнаяГруппа</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Семейная группа</v8:content>
+						</v8:item>
+					</Title>
+					<ContextMenu name="СемейнаяГруппаКонтекстноеМеню" id="29"/>
+					<ExtendedTooltip name="СемейнаяГруппаРасширеннаяПодсказка" id="30"/>
+				</LabelField>
+				<LabelField name="Статус" id="31">
+					<DataPath>Список.Статус</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Статус синхронизации</v8:content>
+						</v8:item>
+					</Title>
+					<ContextMenu name="СтатусКонтекстноеМеню" id="32"/>
+					<ExtendedTooltip name="СтатусРасширеннаяПодсказка" id="33"/>
+				</LabelField>
+				<LabelField name="ДатаОбновления" id="34">
+					<DataPath>Список.ДатаОбновления</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Дата обновления</v8:content>
+						</v8:item>
+					</Title>
+					<ContextMenu name="ДатаОбновленияКонтекстноеМеню" id="35"/>
+					<ExtendedTooltip name="ДатаОбновленияРасширеннаяПодсказка" id="36"/>
+				</LabelField>
+				<LabelField name="Код" id="37">
+					<DataPath>Список.Код</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Код</v8:content>
+						</v8:item>
+					</Title>
+					<ContextMenu name="КодКонтекстноеМеню" id="38"/>
+					<ExtendedTooltip name="КодРасширеннаяПодсказка" id="39"/>
+				</LabelField>
+			</ChildItems>
+		</Table>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Список" id="1">
+			<Type>
+				<v8:Type>cfg:CatalogRef.MRS_Меню</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+		</Attribute>
+		<Attribute name="ОтборВладелец" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Касса ККМ</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:CatalogRef.КассыККМ</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="ОтборСемейнаяГруппа" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Семейная группа</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:CatalogRef.MRS_СемейнаяГруппа</v8:Type>
+			</Type>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="СоздатьГруппу" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Создать группу</v8:content>
+				</v8:item>
+			</Title>
+			<Action>СоздатьГруппу</Action>
+		</Command>
+		<Command name="СинхронизироватьВыбранные" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Синхронизировать выбранные</v8:content>
+				</v8:item>
+			</Title>
+			<Action>СинхронизироватьВыбранные</Action>
+		</Command>
+		<Command name="МассоваяСинхронизация" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Массовая синхронизация...</v8:content>
+				</v8:item>
+			</Title>
+			<Action>МассоваяСинхронизация</Action>
+		</Command>
+	</Commands>
+</Form>
+

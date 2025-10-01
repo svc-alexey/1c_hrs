@@ -69,9 +69,27 @@
 			<CommonPicture>питСостоянияДокумента</CommonPicture>
 			<CommonPicture>питДерево</CommonPicture>
 			<Role>HRS_ОсновнаяРоль</Role>
+			<CommonModule>MRS_ИнтеграцияSimphonyКлиентСервер</CommonModule>
+			<CommonModule>MRS_ЛогированиеИнтеграцииСервер</CommonModule>
+			<CommonModule>MRS_ИнтеграцияSimphonyСервер</CommonModule>
+			<ScheduledJob>MRS_СинхронизацияСправочниковИзSimphony</ScheduledJob>
+			<Constant>MRS_БазовыйURLSimphony</Constant>
+			<Constant>MRS_ТаймаутЗапросовSimphony</Constant>
+			<Constant>MRS_ИспользоватьИнтеграциюSimphony</Constant>
+			<Constant>MRS_IDПользователяПоУмолчанию</Constant>
 			<Catalog>питМеню</Catalog>
 			<Catalog>Номенклатура</Catalog>
 			<Catalog>УпаковкиЕдиницыИзмерения</Catalog>
+			<Catalog>MRS_МажорнаяГруппа</Catalog>
+			<Catalog>MRS_СемейнаяГруппа</Catalog>
+			<Catalog>MRS_КлассМеню</Catalog>
+			<Catalog>MRS_Меню</Catalog>
+			<Enum>MRS_СтатусыСинхронизации</Enum>
+			<Enum>MRS_КатегорииМажорныхГрупп</Enum>
+			<InformationRegister>MRS_СтатусыСинхронизацииМеню</InformationRegister>
+			<InformationRegister>MRS_ЛогИнтеграцииSimphony</InformationRegister>
+			<DataProcessor>MRS_СинхронизацияСправочниковSimphony</DataProcessor>
+			<DataProcessor>MRS_МассоваяСинхронизацияМеню</DataProcessor>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>

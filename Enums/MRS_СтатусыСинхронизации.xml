@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.19">
+	<Enum uuid="a1b2c3d4-e5f6-4789-a1b2-c3d4e5f67890">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.MRS_СтатусыСинхронизации" category="Ref">
+				<xr:TypeId>b1c2d3e4-f5a6-4789-b1c2-d3e4f5a67891</xr:TypeId>
+				<xr:ValueId>c1d2e3f4-a5b6-4789-c1d2-e3f4a5b67892</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>MRS_СтатусыСинхронизации</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Статусы синхронизации (MRS)</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment>Статусы синхронизации позиций меню с Simphony</Comment>
+			<UseStandardCommands>true</UseStandardCommands>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="d1e2f3a4-b5c6-4789-d1e2-f3a4b5c67893">
+				<Properties>
+					<Name>Создано</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Создано</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>Позиция создана в 1С, но еще не синхронизирована</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="e1f2a3b4-c5d6-4789-e1f2-a3b4c5d67894">
+				<Properties>
+					<Name>ВОбработке</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>В обработке</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>Запрос на синхронизацию отправлен</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="f1a2b3c4-d5e6-4789-f1a2-b3c4d5e67895">
+				<Properties>
+					<Name>Синхронизировано</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Синхронизировано</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>Успешно синхронизировано с Simphony</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="a2b3c4d5-e6f1-4789-a2b3-c4d5e6f17896">
+				<Properties>
+					<Name>Ошибка</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Ошибка</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>Ошибка при синхронизации</Comment>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>
+
+
