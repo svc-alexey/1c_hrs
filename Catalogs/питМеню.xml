@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.19">
+	<Catalog uuid="6f32e167-55ac-44db-a44b-2c44ab779672">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.питМеню" category="Object">
+				<xr:TypeId>94e38d69-6fd8-45dc-b615-ba80d2031b78</xr:TypeId>
+				<xr:ValueId>c278f76f-7e97-4fba-a114-e9812e90f99d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.питМеню" category="Ref">
+				<xr:TypeId>ac503ada-d535-4c56-822b-708af334c9eb</xr:TypeId>
+				<xr:ValueId>0076ec62-d1d8-4115-9380-54d13b7ba18c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.питМеню" category="Selection">
+				<xr:TypeId>1e83c427-8b3a-40cd-8bcb-fd50ebb466b6</xr:TypeId>
+				<xr:ValueId>361011b3-a9ff-4385-8072-adfbbc7b41c4</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.питМеню" category="List">
+				<xr:TypeId>79a6c073-62b2-48f4-9366-e4e053e7a10c</xr:TypeId>
+				<xr:ValueId>627da7a5-30fa-4d5f-9c72-da0eb6870933</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.питМеню" category="Manager">
+				<xr:TypeId>d46971a2-269c-4b86-b122-b1c69fb988a0</xr:TypeId>
+				<xr:ValueId>852ef964-9da5-4cf3-ad90-ea5097e83c71</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>питМеню</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>cc5c5bda-89c3-44db-b6c5-c62dfeb874ec</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="1d962d3f-6c9d-44e6-a8bc-6ad11d8768b6">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Номенклатура</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>589975e5-cc58-4b5e-8848-29d51ffaed61</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Номенклатура</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="ff132043-08e0-4a45-bd63-adf70f0718ca">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ЕдиницаИзмерения</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>1409cc9d-8ff8-451a-946f-d1376e0717e4</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.УпаковкиЕдиницыИзмерения</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Form>ФормаЭлемента</Form>
+			<Form>ФормаГруппы</Form>
+			<Form>ФормаВыбораГруппы</Form>
+			<Form>ФормаАвтозаполнения</Form>
+			<Form>ФормаВыгрузки</Form>
+			<Form>ФормаСписка</Form>
+		</ChildObjects>
+	</Catalog>
+</MetaDataObject>

@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.19">
+	<ConfigVersions>
+		<Metadata name="Catalog.Номенклатура" id="87086611-6967-4129-8f27-4cfaa4fc0364" configVersion="f870a8c83cb667281d754556e8f8a9290f1f561e"/>
+		<Metadata name="Catalog.УпаковкиЕдиницыИзмерения" id="cb8ca1b1-ba4a-4bc3-84a3-c9fcf1e45c7f" configVersion="ea141433ea1a809c6fb4685a400c77c98e5535b3"/>
+		<Metadata name="Catalog.питМеню" id="6f32e167-55ac-44db-a44b-2c44ab779672" configVersion="39ad76e08e90e0b817c2a489917de6227b3cfbd5">
+			<Metadata name="Catalog.питМеню.Attribute.Номенклатура" id="1d962d3f-6c9d-44e6-a8bc-6ad11d8768b6"/>
+			<Metadata name="Catalog.питМеню.Attribute.ЕдиницаИзмерения" id="ff132043-08e0-4a45-bd63-adf70f0718ca"/>
+		</Metadata>
+		<Metadata name="Catalog.питМеню.Form.ФормаАвтозаполнения" id="e9d7b4a2-5bbd-4ff7-8bab-9ee4d0c8b677" configVersion="86270cdd6e8e42b0843299add7c90269880c3956"/>
+		<Metadata name="Catalog.питМеню.Form.ФормаАвтозаполнения.Form" id="e9d7b4a2-5bbd-4ff7-8bab-9ee4d0c8b677.0" configVersion="8c437024ad3de792a79354c095029f8e774fcf8b"/>
+		<Metadata name="Catalog.питМеню.Form.ФормаВыбораГруппы" id="5564055a-077e-4e9e-86cf-cb07ce1353ed" configVersion="ecacc0a86e014b4abb2a3e5064de226ee96e5d7d"/>
+		<Metadata name="Catalog.питМеню.Form.ФормаВыбораГруппы.Form" id="5564055a-077e-4e9e-86cf-cb07ce1353ed.0" configVersion="e6c126dfe5af4005cacb20bad57ef6f5d4239df7"/>
+		<Metadata name="Catalog.питМеню.Form.ФормаВыгрузки" id="9bacd83b-4642-4a8e-93ad-1f8873f907d2" configVersion="2bce20c0858002bf182cc9e03f0ce776468b8a2a"/>
+		<Metadata name="Catalog.питМеню.Form.ФормаВыгрузки.Form" id="9bacd83b-4642-4a8e-93ad-1f8873f907d2.0" configVersion="db4e80ab6163a2b43b05656490d36ba02b11734d"/>
+		<Metadata name="Catalog.питМеню.Form.ФормаГруппы" id="729b7e78-77d4-41cb-a323-92843e834916" configVersion="03a2934cb911e0905211ee115802ebcc2da878d2"/>
+		<Metadata name="Catalog.питМеню.Form.ФормаГруппы.Form" id="729b7e78-77d4-41cb-a323-92843e834916.0" configVersion="9178c47ab3e1032c76013726a8e17c7bc53bf7cb"/>
+		<Metadata name="Catalog.питМеню.Form.ФормаСписка" id="324b8ca4-24b8-47b3-8c95-9a3d462baecd" configVersion="c7cbbead668eea6c7151d1a292cb5fb57f6a501b"/>
+		<Metadata name="Catalog.питМеню.Form.ФормаСписка.Form" id="324b8ca4-24b8-47b3-8c95-9a3d462baecd.0" configVersion="17077c5b380988b2535eaae77c8cf9d9aff215fe"/>
+		<Metadata name="Catalog.питМеню.Form.ФормаЭлемента" id="1d908ba4-0131-4fb7-b32f-3ba4513eb717" configVersion="0048c194f3901ff50879d7835b3ac4b09565fa3a"/>
+		<Metadata name="Catalog.питМеню.Form.ФормаЭлемента.Form" id="1d908ba4-0131-4fb7-b32f-3ba4513eb717.0" configVersion="b352a0320af80df69c210116c125db5550038584"/>
+		<Metadata name="CommonPicture.питДерево" id="98ef1d74-22fe-459d-89fe-a5c152de8316" configVersion="bc656689dfb98e85f4a347b996512e636b8e7b8e"/>
+		<Metadata name="CommonPicture.питСостоянияДокумента" id="ed4b94fe-8975-4ce3-a25c-846dca14a059" configVersion="3104601a0fca77a7b160db6155c2f0841e38bee6"/>
+		<Metadata name="Configuration.MRS_HRS" id="3a8b7633-08a6-4275-b26e-6710504a45b7" configVersion="6a0d1cdc1366abc11bc90ac05b89f087a9b3aa8a"/>
+		<Metadata name="Language.Русский" id="35cf31e0-9f0e-4ea0-9a19-9990c679b469" configVersion="e385032b5f2dd503066fd05cfe59600c0cd12ece"/>
+		<Metadata name="Role.HRS_ОсновнаяРоль" id="3dcfa849-bdad-4946-bbe8-1cc0187ed485" configVersion="42e89cc9b982e5ad85c8c34d8b533a360740fcc9"/>
+		<Metadata name="StyleItem.ПоясняющийТекст" id="ef94ccf6-d9b4-4c42-9b5b-6f42b377ed2e" configVersion="7b2947de170fb1b2d6d6987881ba4bc58fa42f9b"/>
+	</ConfigVersions>
+</ConfigDumpInfo>
