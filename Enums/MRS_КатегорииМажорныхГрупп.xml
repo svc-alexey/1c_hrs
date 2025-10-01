@@ -20,6 +20,12 @@
 		</Properties>
 		<ChildObjects>
 			<EnumValue uuid="e2f3a4b5-c6d1-4789-e2f3-a4b5c6d17900">
+				<InternalInfo>
+					<xr:Item>
+						<xr:Key>EnumValue.Еда_1000000_1999999</xr:Key>
+						<xr:Value>e2f3a4b5-c6d1-4789-e2f3-a4b5c6d17900</xr:Value>
+					</xr:Item>
+				</InternalInfo>
 				<Properties>
 					<Name>Еда_1000000_1999999</Name>
 					<Synonym>
@@ -32,6 +38,12 @@
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="f2a3b4c5-d6e1-4789-f2a3-b4c5d6e17901">
+				<InternalInfo>
+					<xr:Item>
+						<xr:Key>EnumValue.АлкогольныеНапитки_2000000_2999999</xr:Key>
+						<xr:Value>f2a3b4c5-d6e1-4789-f2a3-b4c5d6e17901</xr:Value>
+					</xr:Item>
+				</InternalInfo>
 				<Properties>
 					<Name>АлкогольныеНапитки_2000000_2999999</Name>
 					<Synonym>
@@ -44,6 +56,12 @@
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="a3b4c5d6-e7f2-4789-a3b4-c5d6e7f27902">
+				<InternalInfo>
+					<xr:Item>
+						<xr:Key>EnumValue.БезалкогольныеНапитки_3000000_3999999</xr:Key>
+						<xr:Value>a3b4c5d6-e7f2-4789-a3b4-c5d6e7f27902</xr:Value>
+					</xr:Item>
+				</InternalInfo>
 				<Properties>
 					<Name>БезалкогольныеНапитки_3000000_3999999</Name>
 					<Synonym>
@@ -56,6 +74,12 @@
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="b3c4d5e6-f7a2-4789-b3c4-d5e6f7a27903">
+				<InternalInfo>
+					<xr:Item>
+						<xr:Key>EnumValue.Прочее_4000000</xr:Key>
+						<xr:Value>b3c4d5e6-f7a2-4789-b3c4-d5e6f7a27903</xr:Value>
+					</xr:Item>
+				</InternalInfo>
 				<Properties>
 					<Name>Прочее_4000000</Name>
 					<Synonym>
@@ -70,5 +94,3 @@
 		</ChildObjects>
 	</Enum>
 </MetaDataObject>
-
-

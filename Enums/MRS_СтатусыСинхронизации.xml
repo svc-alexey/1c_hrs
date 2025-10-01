@@ -20,6 +20,12 @@
 		</Properties>
 		<ChildObjects>
 			<EnumValue uuid="d1e2f3a4-b5c6-4789-d1e2-f3a4b5c67893">
+				<InternalInfo>
+					<xr:Item>
+						<xr:Key>EnumValue.Создано</xr:Key>
+						<xr:Value>d1e2f3a4-b5c6-4789-d1e2-f3a4b5c67893</xr:Value>
+					</xr:Item>
+				</InternalInfo>
 				<Properties>
 					<Name>Создано</Name>
 					<Synonym>
@@ -32,6 +38,12 @@
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="e1f2a3b4-c5d6-4789-e1f2-a3b4c5d67894">
+				<InternalInfo>
+					<xr:Item>
+						<xr:Key>EnumValue.ВОбработке</xr:Key>
+						<xr:Value>e1f2a3b4-c5d6-4789-e1f2-a3b4c5d67894</xr:Value>
+					</xr:Item>
+				</InternalInfo>
 				<Properties>
 					<Name>ВОбработке</Name>
 					<Synonym>
@@ -44,6 +56,12 @@
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="f1a2b3c4-d5e6-4789-f1a2-b3c4d5e67895">
+				<InternalInfo>
+					<xr:Item>
+						<xr:Key>EnumValue.Синхронизировано</xr:Key>
+						<xr:Value>f1a2b3c4-d5e6-4789-f1a2-b3c4d5e67895</xr:Value>
+					</xr:Item>
+				</InternalInfo>
 				<Properties>
 					<Name>Синхронизировано</Name>
 					<Synonym>
@@ -56,6 +74,12 @@
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="a2b3c4d5-e6f1-4789-a2b3-c4d5e6f17896">
+				<InternalInfo>
+					<xr:Item>
+						<xr:Key>EnumValue.Ошибка</xr:Key>
+						<xr:Value>a2b3c4d5-e6f1-4789-a2b3-c4d5e6f17896</xr:Value>
+					</xr:Item>
+				</InternalInfo>
 				<Properties>
 					<Name>Ошибка</Name>
 					<Synonym>
@@ -70,5 +94,3 @@
 		</ChildObjects>
 	</Enum>
 </MetaDataObject>
-
-
