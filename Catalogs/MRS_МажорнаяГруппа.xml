@@ -140,9 +140,7 @@
 					<ChoiceParameters/>
 					<QuickChoice>Auto</QuickChoice>
 					<CreateOnInput>Auto</CreateOnInput>
-					<FillValue xsi:type="cfg:EnumRef.MRS_КатегорииМажорныхГрупп">
-						<xen:Value/>
-					</FillValue>
+					<FillValue xsi:nil="true"/>
 					<Indexing>DontIndex</Indexing>
 					<FullTextSearch>Use</FullTextSearch>
 					<DataHistory>Use</DataHistory>
