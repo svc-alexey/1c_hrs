@@ -1,10 +1,18 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.19">
-	<Enum uuid="a1b2c3d4-e5f6-4789-a1b2-c3d4e5f67890">
+	<Enum uuid="4c3dc840-7e27-48e9-bd13-755a04c70507">
 		<InternalInfo>
 			<xr:GeneratedType name="EnumRef.MRS_СтатусыСинхронизации" category="Ref">
-				<xr:TypeId>b1c2d3e4-f5a6-4789-b1c2-d3e4f5a67891</xr:TypeId>
-				<xr:ValueId>c1d2e3f4-a5b6-4789-c1d2-e3f4a5b67892</xr:ValueId>
+				<xr:TypeId>ae75a8e9-1ff8-4d23-b1cb-5df4ddf1f9c3</xr:TypeId>
+				<xr:ValueId>4122429a-2823-48eb-8a36-a3626d0c2d50</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.MRS_СтатусыСинхронизации" category="Manager">
+				<xr:TypeId>5ddca2bd-838d-4271-93f0-2e94af0c329b</xr:TypeId>
+				<xr:ValueId>2a9b8865-ffda-499c-9235-61851f01783f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.MRS_СтатусыСинхронизации" category="List">
+				<xr:TypeId>b222e51d-7157-46fe-96ba-2144224da670</xr:TypeId>
+				<xr:ValueId>7236c092-852f-4070-80f6-75ab8e08534e</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
@@ -16,16 +24,21 @@
 				</v8:item>
 			</Synonym>
 			<Comment>Статусы синхронизации позиций меню с Simphony</Comment>
-			<UseStandardCommands>true</UseStandardCommands>
+			<UseStandardCommands>false</UseStandardCommands>
+			<Characteristics/>
+			<QuickChoice>true</QuickChoice>
+			<ChoiceMode>BothWays</ChoiceMode>
+			<DefaultListForm/>
+			<DefaultChoiceForm/>
+			<AuxiliaryListForm/>
+			<AuxiliaryChoiceForm/>
+			<ListPresentation/>
+			<ExtendedListPresentation/>
+			<Explanation/>
+			<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 		</Properties>
 		<ChildObjects>
-			<EnumValue uuid="d1e2f3a4-b5c6-4789-d1e2-f3a4b5c67893">
-				<InternalInfo>
-					<xr:Item>
-						<xr:Key>EnumValue.Создано</xr:Key>
-						<xr:Value>d1e2f3a4-b5c6-4789-d1e2-f3a4b5c67893</xr:Value>
-					</xr:Item>
-				</InternalInfo>
+			<EnumValue uuid="9706c411-7d94-41e3-98c3-a9d9e4fe63bf">
 				<Properties>
 					<Name>Создано</Name>
 					<Synonym>
@@ -37,13 +50,7 @@
 					<Comment>Позиция создана в 1С, но еще не синхронизирована</Comment>
 				</Properties>
 			</EnumValue>
-			<EnumValue uuid="e1f2a3b4-c5d6-4789-e1f2-a3b4c5d67894">
-				<InternalInfo>
-					<xr:Item>
-						<xr:Key>EnumValue.ВОбработке</xr:Key>
-						<xr:Value>e1f2a3b4-c5d6-4789-e1f2-a3b4c5d67894</xr:Value>
-					</xr:Item>
-				</InternalInfo>
+			<EnumValue uuid="55253db9-5850-462e-9698-0386d8b978dd">
 				<Properties>
 					<Name>ВОбработке</Name>
 					<Synonym>
@@ -55,13 +62,7 @@
 					<Comment>Запрос на синхронизацию отправлен</Comment>
 				</Properties>
 			</EnumValue>
-			<EnumValue uuid="f1a2b3c4-d5e6-4789-f1a2-b3c4d5e67895">
-				<InternalInfo>
-					<xr:Item>
-						<xr:Key>EnumValue.Синхронизировано</xr:Key>
-						<xr:Value>f1a2b3c4-d5e6-4789-f1a2-b3c4d5e67895</xr:Value>
-					</xr:Item>
-				</InternalInfo>
+			<EnumValue uuid="ff89bde3-5f09-435b-baeb-b1ec7bf93f5d">
 				<Properties>
 					<Name>Синхронизировано</Name>
 					<Synonym>
@@ -73,13 +74,7 @@
 					<Comment>Успешно синхронизировано с Simphony</Comment>
 				</Properties>
 			</EnumValue>
-			<EnumValue uuid="a2b3c4d5-e6f1-4789-a2b3-c4d5e6f17896">
-				<InternalInfo>
-					<xr:Item>
-						<xr:Key>EnumValue.Ошибка</xr:Key>
-						<xr:Value>a2b3c4d5-e6f1-4789-a2b3-c4d5e6f17896</xr:Value>
-					</xr:Item>
-				</InternalInfo>
+			<EnumValue uuid="92c0120e-b286-43d8-b9e3-cf25fcde7daa">
 				<Properties>
 					<Name>Ошибка</Name>
 					<Synonym>
