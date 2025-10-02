@@ -72,7 +72,7 @@
 			<CommonModule>MRS_ИнтеграцияSimphonyКлиентСервер</CommonModule>
 			<CommonModule>MRS_ЛогированиеИнтеграцииСервер</CommonModule>
 			<CommonModule>MRS_ИнтеграцияSimphonyСервер</CommonModule>
-			<ScheduledJob>MRS_СинхронизацияСправочниковИзSimphony</ScheduledJob>
+			<ScheduledJob>MRS_СинхронизацияСправочниkovИзSimphony</ScheduledJob>
 			<Constant>MRS_БазовыйURLSimphony</Constant>
 			<Constant>MRS_ТаймаутЗапросовSimphony</Constant>
 			<Constant>MRS_ИспользоватьИнтеграциюSimphony</Constant>
@@ -84,12 +84,14 @@
 			<Catalog>MRS_СемейнаяГруппа</Catalog>
 			<Catalog>MRS_КлассМеню</Catalog>
 			<Catalog>MRS_Меню</Catalog>
+			<Catalog>КассыККМ</Catalog>
+			<Catalog>Пользователи</Catalog>
 			<Enum>MRS_СтатусыСинхронизации</Enum>
 			<Enum>MRS_КатегорииМажорныхГрупп</Enum>
-			<InformationRegister>MRS_СтатусыСинхронизацииМеню</InformationRegister>
-			<InformationRegister>MRS_ЛогИнтеграцииSimphony</InformationRegister>
 			<DataProcessor>MRS_СинхронизацияСправочниковSimphony</DataProcessor>
 			<DataProcessor>MRS_МассоваяСинхронизацияМеню</DataProcessor>
+			<InformationRegister>MRS_СтатусыСинхронизацииМеню</InformationRegister>
+			<InformationRegister>MRS_ЛогИнтеграцииSimphony</InformationRegister>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>
