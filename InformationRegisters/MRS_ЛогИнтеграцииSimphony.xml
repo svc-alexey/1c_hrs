@@ -1,30 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.19">
-	<InformationRegister uuid="f7a8b9c0-d2e3-4789-f7a8-b9c0d2e37991">
+	<InformationRegister uuid="5c715420-e7d4-47d5-9017-12cee3451bcb">
 		<InternalInfo>
 			<xr:GeneratedType name="InformationRegisterRecord.MRS_ЛогИнтеграцииSimphony" category="Record">
-				<xr:TypeId>a8b9c0d1-e2f3-4789-a8b9-c0d1e2f37992</xr:TypeId>
-				<xr:ValueId>b8c9d0e1-f2a3-4789-b8c9-d0e1f2a37993</xr:ValueId>
-			</xr:GeneratedType>
-			<xr:GeneratedType name="InformationRegisterRecordSet.MRS_ЛогИнтеграцииSimphony" category="RecordSet">
-				<xr:TypeId>c8d9e0f1-a2b3-4789-c8d9-e0f1a2b37994</xr:TypeId>
-				<xr:ValueId>d8e9f0a1-b2c3-4789-d8e9-f0a1b2c37995</xr:ValueId>
-			</xr:GeneratedType>
-			<xr:GeneratedType name="InformationRegisterSelection.MRS_ЛогИнтеграцииSimphony" category="Selection">
-				<xr:TypeId>e8f9a0b1-c2d3-4789-e8f9-a0b1c2d37996</xr:TypeId>
-				<xr:ValueId>f8a9b0c1-d2e3-4789-f8a9-b0c1d2e37997</xr:ValueId>
-			</xr:GeneratedType>
-			<xr:GeneratedType name="InformationRegisterList.MRS_ЛогИнтеграцииSimphony" category="List">
-				<xr:TypeId>a9b0c1d2-e2f3-4789-a9b0-c1d2e2f37998</xr:TypeId>
-				<xr:ValueId>b9c0d1e2-f2a3-4789-b9c0-d1e2f2a37999</xr:ValueId>
+				<xr:TypeId>8754c6bc-bee1-42fc-85f8-5ecbc24e5e48</xr:TypeId>
+				<xr:ValueId>fdf820dd-c741-4c7c-80f7-2fdbe192e4a3</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="InformationRegisterManager.MRS_ЛогИнтеграцииSimphony" category="Manager">
-				<xr:TypeId>c9d0e1f2-a2b3-4789-c9d0-e1f2a2b38000</xr:TypeId>
-				<xr:ValueId>d9e0f1a2-b2c3-4789-d9e0-f1a2b2c38001</xr:ValueId>
+				<xr:TypeId>e508e739-d567-4f79-bdec-5e5480a653dc</xr:TypeId>
+				<xr:ValueId>1bf25d6d-20d7-405a-b54e-9d5b357111d9</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.MRS_ЛогИнтеграцииSimphony" category="Selection">
+				<xr:TypeId>10d0ddb8-73c8-4296-95f5-c11947445d6e</xr:TypeId>
+				<xr:ValueId>54ac03f8-912d-4009-a45d-6f353a0bcd3a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.MRS_ЛогИнтеграцииSimphony" category="List">
+				<xr:TypeId>1ba58c15-c2d2-4809-a9f6-9bea34fa107a</xr:TypeId>
+				<xr:ValueId>da39542b-d7d4-4564-8ce4-028f12df118c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.MRS_ЛогИнтеграцииSimphony" category="RecordSet">
+				<xr:TypeId>9539bc7a-e07b-4885-b9f3-fba723590c66</xr:TypeId>
+				<xr:ValueId>09c1cc9b-e9a9-4078-8966-68f93c3f3efe</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="InformationRegisterRecordKey.MRS_ЛогИнтеграцииSimphony" category="RecordKey">
-				<xr:TypeId>e9f0a1b2-c2d3-4789-e9f0-a1b2c2d38002</xr:TypeId>
-				<xr:ValueId>f9a0b1c2-d2e3-4789-f9a0-b1c2d2e38003</xr:ValueId>
+				<xr:TypeId>dbddc89b-d2a0-4e73-9fc1-0c43f8c39500</xr:TypeId>
+				<xr:ValueId>b8d9e242-a32a-4836-bfc1-f5c432e3f8b1</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.MRS_ЛогИнтеграцииSimphony" category="RecordManager">
+				<xr:TypeId>2132c9cd-c835-4060-a2b2-fcebf14080a8</xr:TypeId>
+				<xr:ValueId>bf61a38f-5d6a-4ac2-a1bf-d38a51fd2246</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>

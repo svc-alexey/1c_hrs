@@ -1,26 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.19">
-	<DataProcessor uuid="a1b2c3d4-5678-90ab-cdef-123456789001">
+	<DataProcessor uuid="a0473a8d-ef30-4d2f-8848-e79d38ab459d">
+		<InternalInfo>
+			<xr:GeneratedType name="DataProcessorObject.MRS_СинхронизацияСправочниковSimphony" category="Object">
+				<xr:TypeId>de055623-f91a-4a7d-8176-dd15817a5052</xr:TypeId>
+				<xr:ValueId>6cbc5bde-22c6-4e78-a7bc-3c7b1a64d7b2</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DataProcessorManager.MRS_СинхронизацияСправочниковSimphony" category="Manager">
+				<xr:TypeId>241683d6-e2c0-4e42-b094-701cd23bc3c1</xr:TypeId>
+				<xr:ValueId>a19fe638-8d51-4287-a75c-9aa529937cad</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
 		<Properties>
 			<Name>MRS_СинхронизацияСправочниковSimphony</Name>
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Синхронизация справочников Simphony</v8:content>
+					<v8:content>MRS синхронизация справочников simphony</v8:content>
 				</v8:item>
 			</Synonym>
-			<Comment>Обработка для загрузки справочников из Simphony: мажорные группы, семейные группы, классы меню</Comment>
+			<Comment/>
 			<UseStandardCommands>true</UseStandardCommands>
 			<DefaultForm/>
 			<AuxiliaryForm/>
 			<IncludeHelpInContents>false</IncludeHelpInContents>
-			<Help/>
-			<Explanation>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Загружает эталонные справочники из Simphony через REST API</v8:content>
-				</v8:item>
-			</Explanation>
+			<ExtendedPresentation/>
+			<Explanation/>
 		</Properties>
+		<ChildObjects/>
 	</DataProcessor>
 </MetaDataObject>

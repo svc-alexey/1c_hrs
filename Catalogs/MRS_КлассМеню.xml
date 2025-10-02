@@ -1,26 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.19">
-	<Catalog uuid="d9e0f1a2-b2c3-4789-d9e0-f1a2b2c37941">
+	<Catalog uuid="2f055a87-a3a7-48e6-ba5b-80818e3e6b2c">
 		<InternalInfo>
 			<xr:GeneratedType name="CatalogObject.MRS_КлассМеню" category="Object">
-				<xr:TypeId>e9f0a1b2-c2d3-4789-e9f0-a1b2c2d37942</xr:TypeId>
-				<xr:ValueId>f9a0b1c2-d2e3-4789-f9a0-b1c2d2e37943</xr:ValueId>
+				<xr:TypeId>687aad1d-64ca-4e83-96f3-dbafcded7338</xr:TypeId>
+				<xr:ValueId>344869f6-e946-4356-82f5-7647f1c9a091</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="CatalogRef.MRS_КлассМеню" category="Ref">
-				<xr:TypeId>a0b1c2d3-e2f3-4789-a0b1-c2d3e2f37944</xr:TypeId>
-				<xr:ValueId>b0c1d2e3-f2a3-4789-b0c1-d2e3f2a37945</xr:ValueId>
+				<xr:TypeId>a55bf7f8-bd1f-4da8-b27e-19b9b7528aa6</xr:TypeId>
+				<xr:ValueId>e7f0fd2c-b744-4437-8ad6-629465375c77</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="CatalogSelection.MRS_КлассМеню" category="Selection">
-				<xr:TypeId>c0d1e2f3-a2b3-4789-c0d1-e2f3a2b37946</xr:TypeId>
-				<xr:ValueId>d0e1f2a3-b2c3-4789-d0e1-f2a3b2c37947</xr:ValueId>
+				<xr:TypeId>5320c305-60d7-4607-8ca8-ad5a30f31fd3</xr:TypeId>
+				<xr:ValueId>4ad948fe-0d19-47a4-94bd-133be163c9d6</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="CatalogList.MRS_КлассМеню" category="List">
-				<xr:TypeId>e0f1a2b3-c2d3-4789-e0f1-a2b3c2d37948</xr:TypeId>
-				<xr:ValueId>f0a1b2c3-d2e3-4789-f0a1-b2c3d2e37949</xr:ValueId>
+				<xr:TypeId>b2a6ccca-52d4-44e0-856d-2b2144ab40b5</xr:TypeId>
+				<xr:ValueId>d7a44108-64a9-48ec-ae52-2c8110b5d6a0</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="CatalogManager.MRS_КлассМеню" category="Manager">
-				<xr:TypeId>a1b2c3d4-e2f3-4789-a1b2-c3d4e2f37950</xr:TypeId>
-				<xr:ValueId>b1c2d3e4-f2a3-4789-b1c2-d3e4f2a37951</xr:ValueId>
+				<xr:TypeId>8ebf549b-ddec-4c2f-b413-a9edd88ab785</xr:TypeId>
+				<xr:ValueId>097b68a1-c062-433e-81e2-cd04ef36ed98</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
