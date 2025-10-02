@@ -46,12 +46,12 @@
 			<DefaultListForm/>
 			<AuxiliaryRecordForm/>
 			<AuxiliaryListForm/>
-			<StandardAttributes>
-				<xr:Attribute>Active</xr:Attribute>
-				<xr:Attribute>LineNumber</xr:Attribute>
-				<xr:Attribute>Recorder</xr:Attribute>
-				<xr:Attribute>Period</xr:Attribute>
-			</StandardAttributes>
+		<StandardAttributes>
+			<xr:Set>Active</xr:Set>
+			<xr:Set>LineNumber</xr:Set>
+			<xr:Set>Recorder</xr:Set>
+			<xr:Set>Period</xr:Set>
+		</StandardAttributes>
 			<InformationRegisterPeriodicity>Nonperiodical</InformationRegisterPeriodicity>
 			<WriteMode>Independent</WriteMode>
 			<DataLockControlMode>Managed</DataLockControlMode>
