@@ -106,9 +106,7 @@
 					<ChoiceParameters/>
 					<QuickChoice>Auto</QuickChoice>
 					<CreateOnInput>Auto</CreateOnInput>
-					<FillValue xsi:type="cfg:CatalogRef.Номенклатура">
-						<xr:Ref/>
-					</FillValue>
+					<FillValue xsi:nil="true"/>
 					<Indexing>Index</Indexing>
 					<FullTextSearch>Use</FullTextSearch>
 					<DataHistory>Use</DataHistory>
@@ -225,9 +223,7 @@
 					<ChoiceParameters/>
 					<QuickChoice>Auto</QuickChoice>
 					<CreateOnInput>Auto</CreateOnInput>
-					<FillValue xsi:type="cfg:CatalogRef.MRS_МажорнаяГруппа">
-						<xr:Ref/>
-					</FillValue>
+					<FillValue xsi:nil="true"/>
 					<Indexing>Index</Indexing>
 					<FullTextSearch>Use</FullTextSearch>
 					<DataHistory>Use</DataHistory>
@@ -267,9 +263,7 @@
 					<ChoiceParameters/>
 					<QuickChoice>Auto</QuickChoice>
 					<CreateOnInput>Auto</CreateOnInput>
-					<FillValue xsi:type="cfg:CatalogRef.MRS_КлассМеню">
-						<xr:Ref/>
-					</FillValue>
+					<FillValue xsi:nil="true"/>
 					<Indexing>Index</Indexing>
 					<FullTextSearch>Use</FullTextSearch>
 					<DataHistory>Use</DataHistory>
@@ -309,9 +303,7 @@
 					<ChoiceParameters/>
 					<QuickChoice>Auto</QuickChoice>
 					<CreateOnInput>Auto</CreateOnInput>
-					<FillValue xsi:type="cfg:CatalogRef.MRS_СемейнаяГруппа">
-						<xr:Ref/>
-					</FillValue>
+					<FillValue xsi:nil="true"/>
 					<Indexing>Index</Indexing>
 					<FullTextSearch>Use</FullTextSearch>
 					<DataHistory>Use</DataHistory>

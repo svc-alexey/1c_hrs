@@ -126,9 +126,7 @@
 					<ChoiceParameters/>
 					<QuickChoice>Auto</QuickChoice>
 					<CreateOnInput>Auto</CreateOnInput>
-					<FillValue xsi:type="cfg:CatalogRef.Пользователи">
-						<xr:Ref/>
-					</FillValue>
+					<FillValue xsi:nil="true"/>
 					<Master>false</Master>
 					<MainFilter>true</MainFilter>
 					<FullTextSearch>Use</FullTextSearch>
